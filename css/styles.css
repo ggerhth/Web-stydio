@@ -28,6 +28,13 @@ body{
     line-height: normal;
     letter-spacing: 0.28px;
 }
+.nav-list-link:hover, .contacts-list-link-two:hover{
+    color: var(--accent-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
 .logo{
     color: var(--accent-color);
     font-family: Raleway;
@@ -47,6 +54,16 @@ body{
     letter-spacing: 0.78px;
 }
 .contacts-list-link{
+    color: var(--secondary-font-color);
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.28px;
+}
+/* .contacts-list:nth-child(2) .contacts-list-link::before{
+    content: " V";
+} */
+.contacts-list-link-two{
     color: var(--secondary-font-color);
     font-style: normal;
     font-weight: 500;
@@ -238,6 +255,7 @@ body{
 .section-team{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #F5F4FA;
 }
 .footer{
     padding-top: 60px;
@@ -299,4 +317,60 @@ body{
     display: inline-block;
     width: 270px;
     height: 120px;
+}
+.adress-list-desc{
+    color: #FFFFFF;
+    margin-bottom: 9px;
+}
+.adress-list-link-two{
+    color: #FFFFFF99;
+}
+.adress-list-link{
+    color: #FFFFFF99;
+    margin-top: 9px;
+}
+.footer-logo-web{
+    color: #2196F3;
+}
+.footer-logo-studio{
+    color: #000;
+}
+.svg-naha-komanda{
+    fill: #AFB1B8;
+    display: flex;
+}
+.svg-naha-komanda:hover{
+    fill: #FFFFFF;
+    background-color: #2196F3;
+    border-radius:34px;
+}
+.svg-header:hover{
+    fill: #2196F3;
+}
+.svg-header{
+    fill: #757575;
+}
+.regular-clients-title{
+    text-align: center;
+    margin-top: 94px;
+}
+.regular-clients-div{
+    margin-bottom: 94px;
+    margin-top: 50px;
+}
+.regular-clients-svg{
+    fill: #AFB1B8;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    margin-right: 20px;
+    padding-top: 23px;
+    padding-bottom: 24px;
+}
+.regular-clients-svg:hover{
+    fill: #2196F3;
+    border: 1px solid #2196F3;
+}
+.team-list-item{
+    background-color: #FFFFFF;
+    border-radius: 0px, 0px, 4px, 4px;
 }
